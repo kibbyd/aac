@@ -3,7 +3,7 @@
 h2, .newsletter {
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Comfortaa', cursive;
-    font-size: 35px;
+    font-size: 218.75%;
 }
 
 h3 {
@@ -14,6 +14,36 @@ footer {
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9893091025472689) 44%, rgba(45,62,79,1) 100%); 
 }
+
+.dropdown-item {
+    font-family: 'Comfortaa', cursive;
+    font-size: 125%;
+}
+
+.ghost-white {
+    background-color: #f8f9fa;
+}
+
+.head-container {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9893091025472689) 44%, rgba(45,62,79,1) 100%);
+    padding: 10px 10px 10px 10px;
+}
+
+.navbar ul li {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.who-we-are {
+    font-size: 125%;
+}
+
+
+
+
+
+
 
 /* Wave Animation */
 
@@ -87,35 +117,3 @@ footer {
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
-
-/* navbar */
-
-.navbar ul li {
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-}
-
-.ghost-white {
-    background-color: #f8f9fa;
-}
-
-.who-we-are {
-    font-size: 20px;
-}
-
-.dropdown-item {
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-}
-
-.jumbotron {
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9893091025472689) 44%, rgba(45,62,79,1) 100%); 
-    margin: 0;
-    padding-top: 10px;
-}
-
-.head-container {
-    height: 100px;
-}
-
