@@ -6,6 +6,15 @@ h2, .newsletter {
     font-size: 35px;
 }
 
+h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+footer {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9893091025472689) 44%, rgba(45,62,79,1) 100%); 
+}
+
 /* Wave Animation */
 
 @keyframes move_wave {
@@ -98,3 +107,15 @@ h2, .newsletter {
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
 }
+
+.jumbotron {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9893091025472689) 44%, rgba(45,62,79,1) 100%); 
+    margin: 0;
+    padding-top: 10px;
+}
+
+.head-container {
+    height: 100px;
+}
+
