@@ -60,10 +60,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" href="shop.html">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sponsor</a>
+            <a class="nav-link" href="sponsor.html">Sponsor</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -82,48 +82,296 @@
       </div>
     </div>
 
-
-
+  <!-- Event Card 1 -->  
     <div class="row">
       <div class="col mt-3 mb-4  d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <img src="images/PerryReservoir.png" class="card-img-top" alt="Perry Reservoir Tournament">
+          <img src="images/events/PerryReservoir.png" class="card-img-top" alt="Perry Reservoir Tournament">
           <div class="card-body">
             <h5 class="card-title text-center">Perry Reservoir, KS</h5>
             <p class="card-text text-center">Pre-Register Now<br>Saturday, March 21st<br> 7:30am to 3:30pm<br><br></p>
-            <a href="#" class="btn btn-primary d-block mx-auto">Register</a>
+            <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
+              data-target="#registerModal1">Register</a>
           </div>
         </div>
       </div>
 
+    <!-- Event Card 2 -->
       <div class="col mt-3 mb-4  d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <img src="images/CheneyReservoir.png" height="243.3px" class="card-img-top" alt="Cheney Reservoir Cats Tournament">
+          <img src="images/events/CheneyReservoir.png" height="243.3px" class="card-img-top"
+            alt="Cheney Reservoir Cats Tournament">
           <div class="card-body">
             <h5 class="card-title text-center">Cheny Reservoir Cats, KS</h5>
-            <p class="card-text text-center">Pre-Register from<br>December 1st<br>Launch 6:30am<br>7:00am to 4:00pm<br></p>
-            <a href="#" class="btn btn-primary d-block mx-auto">Register</a>
+            <p class="card-text text-center">Pre-Register from<br>December 1st<br>Launch 6:30am<br>7:00am to 4:00pm<br>
+            </p>
+            <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
+              data-target="#registerModal2">Register</a>
           </div>
         </div>
       </div>
 
+    <!-- Event Card 3 -->
       <div class="col mt-3 mb-4  d-flex justify-content-center">
         <div class="card" style="width: 20rem;">
-          <img src="images/MayMonsterCats.png" height="243.3px" class="card-img-top" alt="May Monster Cats Tournament">
+          <img src="images/events/MayMonsterCats.png" height="243.3px" class="card-img-top" alt="May Monster Cats Tournament">
           <div class="card-body">
             <h5 class="card-title text-center">May Monster Cats, KS</h5>
-            <p class="card-text text-center">Pre-Register Now<br>May 23rd and 24th<br>Launch 6:30am<br>7:00am to 4:00pm<br></p>
-            <a href="#" class="btn btn-primary d-block mx-auto">Register</a>
+            <p class="card-text text-center">Pre-Register Now<br>May 23rd and 24th<br>Launch 6:30am<br>7:00am to
+              4:00pm<br></p>
+            <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
+              data-target="#registerModal3">Register</a>
           </div>
         </div>
       </div>
-    </div>      
-    
+    </div>
+
+  <!-- Modal 1 -->
+    <div id="registerModal1" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Register for Event</h3>
+            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <form>
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="numAnglers">Number of Anglers</label>
+                  <div class="col col-sm-6">
+                    <select class="col form-control" name="numAnglers" id="numAnglers">
+                      <option class="text-muted">Select...</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="boatCaptain">Boat Captain:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="boatCaptain" id="boatCaptain" required>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="boatCaptainTel" required>Boat Captain's Tel:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="angler2">Angler 2:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="angler2" id="angler2">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="angler3">Angler 3:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="angler3" id="angler3">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="payment">Payment Option:</label>
+                  <div class="col col-sm-6">
+                    <select class="col form-control" name="payment" id="payment">
+                      <option class="text-muted">Select...</option>
+                      <option value="1">Place Holder $30</option>
+                      <option value="2">Full Payment $120</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-8 form-check-label" for="agree">Please confirm you have read and agree to the <a
+                      href="rules.html" target="_blank">tournament rules</a>.</label>
+                      <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="agree" value="agree"
+                          aria-label="agree to rules" required>
+                      </div>
+                </div>
+                <div class="form-row">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                  <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Modal 2 -->  
+    <div id="registerModal2" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Register for Event</h3>
+            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <form>
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="numAnglers2">Number of Anglers</label>
+                  <div class="col col-sm-6">
+                    <select class="col form-control" name="numAnglers" id="numAnglers2">
+                      <option class="text-muted">Select...</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="boatCaptain2">Boat Captain:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="boatCaptain" id="boatCaptain2" required>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="boatCaptainTel2">Boat Captain's Tel:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel2" required>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="angler2-2">Angler 2:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="angler2" id="angler2-2">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="angler3-2">Angler 3:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="angler3" id="angler3-2">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="payment2">Payment Option:</label>
+                  <div class="col col-sm-6">
+                    <select class="col form-control" name="payment" id="payment2">
+                      <option class="text-muted">Select...</option>
+                      <option value="1">Place Holder $40</option>
+                      <option value="2">Full Payment $160</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-8 form-check-label" for="agree2">Please confirm you have read and agree to the <a
+                      href="rules.html" target="_blank">tournament rules</a>.</label>
+                      <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="agree2" value="agree"
+                          aria-label="agree to rules" required>
+                      </div>
+                </div>
+                <div class="form-row">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                  <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Modal 3 -->
+    <div id="registerModal3" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Register for Event</h3>
+            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <form>
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="numAnglers3">Number of Anglers</label>
+                  <div class="col col-sm-6">
+                    <select class="col form-control" name="numAnglers" id="numAnglers3">
+                      <option class="text-muted">Select...</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="boatCaptain3">Boat Captain:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="boatCaptain" id="boatCaptain3" required>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="boatCaptainTel3" required>Boat Captain's Tel:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel3" required>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="angler2-3">Angler 2:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="angler" id="angler2-3">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="angler3-3">Angler 3:</label>
+                  <div class="col col-sm-6">
+                    <input class="form-control" type="text" name="angler3" id="angler3-3">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-6 col-form-label" for="payment3">Payment Option:</label>
+                  <div class="col col-sm-6">
+                    <select class="col form-control" name="payment" id="payment3">
+                      <option class="text-muted">Select...</option>
+                      <option value="1">Place Holder $30</option>
+                      <option value="2">Full Payment $120</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-8 form-check-label" for="agree3">Please confirm you have read and agree to the <a
+                      href="rules.html" target="_blank">tournament rules</a>.</label>
+                  <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="agree3" value="agree"
+                      aria-label="agree to rules" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                  <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 </body>
 
 <footer class="footer sticky-footer">
-
   <div class="row pt-2">
     <div class="col d-sm-flex justify-content-center">
       <h2 class="text-white pr-3 facebook-join">Join our Group <a class="btn btn-social-icon btn-facebook mb-1"
