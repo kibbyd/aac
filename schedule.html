@@ -79,18 +79,32 @@
 </body>
 
 <footer class="footer sticky-footer">
-
-  <div class="row pt-2">
-    <div class="col d-flex justify-content-center">
-      <h2 class="text-white pr-3">Join our Group </h2><a class="btn btn-social-icon btn-facebook mt-1" target="_blank"
-        href="https://www.facebook.com/groups/AACatfish/"><i class="fa fa-facebook"></i></a>
+  <div class="container-fluid">
+    <div class="row pt-2">
+      <div class="col">
+        <span data-toggle="tooltip" data-placement="top" title="Click Facebook Icon"><h2 class="text-white text-center pr-3">Join our Group</span> <a class="btn btn-social-icon btn-facebook mb-1" target="_blank"
+          href="https://www.facebook.com/groups/AACatfish/"><i class="fa fa-facebook"></i></a></h2></span>
+      </div>
     </div>
-  </div>
+    
+    <div id="signature" class="row bg-dark py-2">
+      <div class="col text-center pt-2">
+        <h5 class="text-white">Copyright © 2020 | All rights reserved | Delivered by <a href="https://github.com/kibbyd" target="_blank">The Milkman</a><img src="images/milkBottle.png" height="20px" alt="milk bottle" class="mb-1">
+        </h5>
+      </div>
+    </div>		
+  </div>		
 </footer>
 
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<sript src="js/scripts.js"></sript>
 
+<script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
 </html>
