@@ -1,182 +1,183 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1">
-  <title>All American Catfish</title>
-  <!-- Bootstrap CSS-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>All American Catfish</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- Additional CSS must be placed after Bootstrap CSS-->
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <!-- Additional CSS must be placed after Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<body>
+  <body>
 
+    <!-- Header -->
+    <header>
+      <div class="container-fluid head-container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-6 col-sm-2">
+            <a href="index.html"><img src="images/aac-logo.png" width="175px" alt="logo"></a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <header>
-    <div class="container-fluid head-container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-8 col-sm-2">
-          <a href="index.html"><img src="images/aac-logo.png" width="175px" alt="logo"></a>
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-top border-bottom">
+      <div class="container">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNavbar"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="mainNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Tournaments
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="schedule.html">Schedule</a>
+                <a class="dropdown-item" href="register.html">Register</a>
+                <a class="dropdown-item" href="rules.html">Rules</a>
+                <a class="dropdown-item" href="gallery.html">Gallery</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Community Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="communityevents.html">Schedule</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sponsor.html">Sponsor</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html"><span class="sr-only">(current)</span>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- Page title -->
+      <div class="row">
+        <div class="col mt-3">
+          <h2>Contact Us</h2>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Main content -->
+      <div class="row row-content align-items-center">
+        <div class="col-sm-4">
+          <h5>Our Address</h5>
+          <address>
+            PO BOX 195,<br>
+            Edgerton,<br> 
+            Kansas 66021 
+          </address>
+        </div>
+        <div class="col">
+          <a role="button" class="btn btn-link" href="tel:+1913864462"><i class="fa fa-phone fa-lg text-primary"></i>
+            (913)-486-4462</a><br>
+          <a role="button" class="btn btn-link" href="mailto:AACatfish@outlook.com"><i
+              class="fa fa-envelope-o fa-lg text-primary"></i> AACatfish@outlook.com</a>
+        </div>
+      </div>
+
+      <div class="row row-content">
+        <div class="col-12 mt-3">
+          <h2>Send us your Feedback</h2>
+          <hr>
+        </div>
+        <div class="col-md-10">
+          <form>
+            <div class="form-group row">
+              <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+              <div class="col-md-10">
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+              <div class="col-md-10">
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="telNum" class="col-md-2 col-form-label">Contact Tel.</label>
+            
+              <div class="col-md-10">
+                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-md-2 col-form-label">Email</label>
+              <div class="col-md-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+              <div class="col-md-10">
+                <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Send Feedback</button>
+              </div>
+            </div>
+          </form>
+
         </div>
       </div>
     </div>
-  </header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-top border-bottom">
-    <div class="container">
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNavbar"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="mainNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Tournaments
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="schedule.html">Schedule</a>
-              <a class="dropdown-item" href="register.html">Register</a>
-              <a class="dropdown-item" href="rules.html">Rules</a>
-              <a class="dropdown-item" href="gallery.html">Gallery</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Community Events
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="communityevents.html">Schedule</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sponsor.html">Sponsor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  </body>
 
-  <div class="container">
-    <div class="row">
-      <div class="col mt-3">
-        <h2>Contact Us</h2>
-        <hr>
+  <!-- Footer -->
+  <footer class="footer sticky-footer">
+    <div class="container-fluid">
+      <div class="row pt-2">
+        <div class="col">
+          <span data-toggle="tooltip" data-placement="top" title="Click Facebook Icon"><h2 class="text-white text-center pr-3">Join our Group</span> <a class="btn btn-social-icon btn-facebook mb-1" target="_blank"
+            href="https://www.facebook.com/groups/AACatfish/"><i class="fa fa-facebook"></i></a></h2></span>
+        </div>
       </div>
-    </div>
-
-    <div class="row row-content align-items-center">
-      <div class="col-sm-4">
-        <h5>Our Address</h5>
-        <address>
-          PO BOX 195,<br>
-          Edgerton,<br> 
-          Kansas 66021 
-        </address>
-      </div>
-      <div class="col">
-        <a role="button" class="btn btn-link" href="tel:+1913864462"><i class="fa fa-phone fa-lg text-primary"></i>
-          (913)-486-4462</a><br>
-        <a role="button" class="btn btn-link" href="mailto:AACatfish@outlook.com"><i
-            class="fa fa-envelope-o fa-lg text-primary"></i> AACatfish@outlook.com</a>
-      </div>
-    </div>
-
-    <div class="row row-content">
-      <div class="col-12 mt-3">
-        <h2>Send us your Feedback</h2>
-        <hr>
-      </div>
-      <div class="col-md-10">
-        <form>
-          <div class="form-group row">
-            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-            <div class="col-md-10">
-              <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-            <div class="col-md-10">
-              <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="telNum" class="col-md-2 col-form-label">Contact Tel.</label>
-           
-            <div class="col-md-10">
-              <input type="tel" class="form-control" name="telNum" placeholder="Tel. number">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="email" class="col-md-2 col-form-label">Email</label>
-            <div class="col-md-10">
-              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-            <div class="col-md-10">
-              <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="offset-md-2 col-md-10">
-              <button type="submit" class="btn btn-primary">Send Feedback</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
-    </div>
-  </div>
-
-</body>
-
-<footer class="footer sticky-footer">
-  <div class="container-fluid">
-    <div class="row pt-2">
-      <div class="col">
-        <span data-toggle="tooltip" data-placement="top" title="Click Facebook Icon"><h2 class="text-white text-center pr-3">Join our Group</span> <a class="btn btn-social-icon btn-facebook mb-1" target="_blank"
-          href="https://www.facebook.com/groups/AACatfish/"><i class="fa fa-facebook"></i></a></h2></span>
-      </div>
-    </div>
-    
-    <div id="signature" class="row bg-dark py-2">
-      <div class="col text-center pt-2">
-        <h6 class="text-white">Copyright © 2020 | All rights reserved | Delivered by <a href="https://github.com/kibbyd" target="_blank">The Milkman</a><img src="images/milkBottle.png" height="20px" alt="milk bottle" class="mb-1">
-        </h6>
-      </div>
+      
+      <!-- Signature -->
+      <div id="signature" class="row bg-dark py-2">
+        <div class="col text-center pt-2">
+          <h6 class="text-white">Copyright © 2020 | All rights reserved | Delivered by <a href="https://github.com/kibbyd" target="_blank">The Milkman</a><img src="images/milkBottle.png" height="20px" alt="milk bottle" class="mb-1">
+          </h6>
+        </div>
+      </div>		
     </div>		
-  </div>		
-</footer>
+  </footer>
 
-<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 
-<script>
-  $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-</script>
 </html>

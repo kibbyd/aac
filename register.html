@@ -1,524 +1,524 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1">
-  <title>All American Catfish</title>
-  <!-- Bootstrap CSS-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>All American Catfish</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- Additional CSS must be placed after Bootstrap CSS-->
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <!-- Additional CSS must be placed after Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<body>
-
-  <header>
-    <div class="container-fluid head-container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-8 col-sm-2">
-          <a href="index.html"><img src="images/aac-logo.png" width="175px" alt="logo"></a>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container-fluid head-container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8 col-sm-2">
+            <a href="index.html"><img src="images/aac-logo.png" width="175px" alt="logo"></a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-top border-bottom">
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-top border-bottom">
+      <div class="container">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNavbar"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="mainNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Tournaments
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="schedule.html">Schedule</a>
+                <a class="dropdown-item" href="register.html"><span class="sr-only">(current)</span>Register</a>
+                <a class="dropdown-item" href="rules.html">Rules</a>
+                <a class="dropdown-item" href="gallery.html">Gallery</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Community Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="communityevents.html">Schedule</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sponsor.html">Sponsor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNavbar"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="mainNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Tournaments
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="schedule.html">Schedule</a>
-              <a class="dropdown-item" href="register.html">Register</a>
-              <a class="dropdown-item" href="rules.html">Rules</a>
-              <a class="dropdown-item" href="gallery.html">Gallery</a>
+
+      <div class="row">
+        <div class="col mt-3">
+          <h2>Register for an Event</h2>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+
+      <!-- Event Card 1 -->  
+      <div class="row">
+        <div class="col mt-3 mb-4  d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+            <img src="images/events/PerryReservoir.png" class="card-img-top" alt="Perry Reservoir Tournament">
+            <div class="card-body">
+              <h5 class="card-title text-center">Perry Reservoir, KS</h5>
+              <p class="card-text text-center">Pre-Register Now<br>Saturday, March 21st<br> 7:30am to 3:30pm<br><br></p>
+              <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
+                data-target="#release1">Register</a>
             </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Community Events
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="communityevents.html">Schedule</a>
+          </div>
+        </div>
+
+      <!-- Event Card 2 -->
+        <div class="col mt-3 mb-4  d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+            <img src="images/events/CheneyReservoir.png" height="243.3px" class="card-img-top"
+              alt="Cheney Reservoir Cats Tournament">
+            <div class="card-body">
+              <h5 class="card-title text-center">Cheny Reservoir Cats, KS</h5>
+              <p class="card-text text-center">Pre-Register from<br>December 1st<br>Launch 6:30am<br>7:00am to 4:00pm<br>
+              </p>
+              <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
+                data-target="#release2">Register</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="shop.html">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sponsor.html">Sponsor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+          </div>
+        </div>
 
-  <div class="container">
-
-    <div class="row">
-      <div class="col mt-3">
-        <h2>Register for an Event</h2>
-        <hr>
-      </div>
-    </div>
-
-    <!-- Event Card 1 -->  
-    <div class="row">
-      <div class="col mt-3 mb-4  d-flex justify-content-center">
-        <div class="card" style="width: 20rem;">
-          <img src="images/events/PerryReservoir.png" class="card-img-top" alt="Perry Reservoir Tournament">
-          <div class="card-body">
-            <h5 class="card-title text-center">Perry Reservoir, KS</h5>
-            <p class="card-text text-center">Pre-Register Now<br>Saturday, March 21st<br> 7:30am to 3:30pm<br><br></p>
-            <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
-              data-target="#release1">Register</a>
+      <!-- Event Card 3 -->
+        <div class="col mt-3 mb-4  d-flex justify-content-center">
+          <div class="card" style="width: 20rem;">
+            <img src="images/events/MayMonsterCats.png" height="243.3px" class="card-img-top" alt="May Monster Cats Tournament">
+            <div class="card-body">
+              <h5 class="card-title text-center">May Monster Cats, KS</h5>
+              <p class="card-text text-center">Pre-Register Now<br>May 23rd and 24th<br>Launch 6:30am<br>7:00am to
+                4:00pm<br></p>
+              <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
+                data-target="#release3">Register</a>
+            </div>
           </div>
         </div>
       </div>
 
-    <!-- Event Card 2 -->
-      <div class="col mt-3 mb-4  d-flex justify-content-center">
-        <div class="card" style="width: 20rem;">
-          <img src="images/events/CheneyReservoir.png" height="243.3px" class="card-img-top"
-            alt="Cheney Reservoir Cats Tournament">
-          <div class="card-body">
-            <h5 class="card-title text-center">Cheny Reservoir Cats, KS</h5>
-            <p class="card-text text-center">Pre-Register from<br>December 1st<br>Launch 6:30am<br>7:00am to 4:00pm<br>
-            </p>
-            <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
-              data-target="#release2">Register</a>
+      <!-- Modal 1 -->
+      <div id="registerModal1" class="modal fade overflow-auto" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Register for Event</h3>
+              <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" >
+              <div class="container-fluid">
+                <form>
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="numAnglers">Number of Anglers</label>
+                    <div class="col col-sm-6">
+                      <select class="col form-control" name="numAnglers" id="numAnglers">
+                        <option class="text-muted">Select...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="boatCaptain">Boat Captain:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="boatCaptain" id="boatCaptain" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="boatCaptainTel" required>Boat Captain's Tel:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="angler2">Angler 2:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="angler2" id="angler2">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="angler3">Angler 3:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="angler3" id="angler3">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="payment">Payment Option:</label>
+                    <div class="col col-sm-6">
+                      <select class="col form-control" name="payment" id="payment">
+                        <option class="text-muted">Select...</option>
+                        <option value="1">Place Holder $30</option>
+                        <option value="2">Full Payment $120</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-8 form-check-label" for="agree">Please confirm you have read and agree to the <a
+                        href="rules.html" target="_blank">tournament rules</a>.</label>
+                        <div class="form-check">
+                          <input class="form-check-input position-static" type="checkbox" id="agree" value="agree"
+                            aria-label="agree to rules" required>
+                        </div>
+                  </div>
+                  <div class="form-row">
+                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-    <!-- Event Card 3 -->
-      <div class="col mt-3 mb-4  d-flex justify-content-center">
-        <div class="card" style="width: 20rem;">
-          <img src="images/events/MayMonsterCats.png" height="243.3px" class="card-img-top" alt="May Monster Cats Tournament">
-          <div class="card-body">
-            <h5 class="card-title text-center">May Monster Cats, KS</h5>
-            <p class="card-text text-center">Pre-Register Now<br>May 23rd and 24th<br>Launch 6:30am<br>7:00am to
-              4:00pm<br></p>
-            <a href="#" class="btn btn-primary d-block mx-auto" data-toggle="modal"
-              data-target="#release3">Register</a>
+
+      <!-- Modal 2 -->  
+      <div id="registerModal2" class="modal fade overflow-auto" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Register for Event</h3>
+              <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <form>
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="numAnglers2">Number of Anglers</label>
+                    <div class="col col-sm-6">
+                      <select class="col form-control" name="numAnglers" id="numAnglers2">
+                        <option class="text-muted">Select...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="boatCaptain2">Boat Captain:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="boatCaptain" id="boatCaptain2" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="boatCaptainTel2">Boat Captain's Tel:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel2" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="angler2-2">Angler 2:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="angler2" id="angler2-2">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="angler3-2">Angler 3:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="angler3" id="angler3-2">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="payment2">Payment Option:</label>
+                    <div class="col col-sm-6">
+                      <select class="col form-control" name="payment" id="payment2">
+                        <option class="text-muted">Select...</option>
+                        <option value="1">Place Holder $40</option>
+                        <option value="2">Full Payment $160</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-8 form-check-label" for="agree2">Please confirm you have read and agree to the <a
+                        href="rules.html" target="_blank">tournament rules</a>.</label>
+                        <div class="form-check">
+                          <input class="form-check-input position-static" type="checkbox" id="agree2" value="agree"
+                            aria-label="agree to rules" required>
+                        </div>
+                  </div>
+                  <div class="form-row">
+                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal 3 -->
+      <div id="registerModal3" class="modal fade overflow-auto" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Register for Event</h3>
+              <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <form>
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="numAnglers3">Number of Anglers</label>
+                    <div class="col col-sm-6">
+                      <select class="col form-control" name="numAnglers" id="numAnglers3">
+                        <option class="text-muted">Select...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="boatCaptain3">Boat Captain:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="boatCaptain" id="boatCaptain3" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="boatCaptainTel3" required>Boat Captain's Tel:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel3" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="angler2-3">Angler 2:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="angler" id="angler2-3">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="angler3-3">Angler 3:</label>
+                    <div class="col col-sm-6">
+                      <input class="form-control" type="text" name="angler3" id="angler3-3">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-6 col-form-label" for="payment3">Payment Option:</label>
+                    <div class="col col-sm-6">
+                      <select class="col form-control" name="payment" id="payment3">
+                        <option class="text-muted">Select...</option>
+                        <option value="1">Place Holder $30</option>
+                        <option value="2">Full Payment $120</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-8 form-check-label" for="agree3">Please confirm you have read and agree to the <a
+                        href="rules.html" target="_blank">tournament rules</a>.</label>
+                    <div class="form-check">
+                      <input class="form-check-input position-static" type="checkbox" id="agree3" value="agree"
+                        aria-label="agree to rules" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Modal 1 -->
-    <div id="registerModal1" class="modal fade overflow-auto" role="dialog">
-      <div class="modal-dialog" role="document">
+    <!-- Release of liability modal 1-->
+    <div id="release1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title">Register for Event</h3>
-            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body" >
-            <div class="container-fluid">
-              <form>
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="numAnglers">Number of Anglers</label>
-                  <div class="col col-sm-6">
-                    <select class="col form-control" name="numAnglers" id="numAnglers">
-                      <option class="text-muted">Select...</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="boatCaptain">Boat Captain:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="boatCaptain" id="boatCaptain" required>
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="boatCaptainTel" required>Boat Captain's Tel:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="angler2">Angler 2:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="angler2" id="angler2">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="angler3">Angler 3:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="angler3" id="angler3">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="payment">Payment Option:</label>
-                  <div class="col col-sm-6">
-                    <select class="col form-control" name="payment" id="payment">
-                      <option class="text-muted">Select...</option>
-                      <option value="1">Place Holder $30</option>
-                      <option value="2">Full Payment $120</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-8 form-check-label" for="agree">Please confirm you have read and agree to the <a
-                      href="rules.html" target="_blank">tournament rules</a>.</label>
-                      <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="agree" value="agree"
-                          aria-label="agree to rules" required>
-                      </div>
-                </div>
-                <div class="form-row">
-                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
-                  <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Modal 2 -->  
-    <div id="registerModal2" class="modal fade overflow-auto" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title">Register for Event</h3>
+            <h3 class="modal-title">All American Catfish Tournaments Release of liability</h3>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
           <div class="modal-body">
-            <div class="container-fluid">
-              <form>
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="numAnglers2">Number of Anglers</label>
-                  <div class="col col-sm-6">
-                    <select class="col form-control" name="numAnglers" id="numAnglers2">
-                      <option class="text-muted">Select...</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
+            <div class="container">
+              <div class="row">    
+                <div class="col-12 text-center">
+                  <p>PO Box 195 Edgerton, KS, 66021 </p>
                 </div>
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="boatCaptain2">Boat Captain:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="boatCaptain" id="boatCaptain2" required>
-                  </div>
+                <div class="col-12">
+                  <p>In consideration of being allowed to participate in any way in the All American Catfish Tournaments program, its related events and activities,<br> I/WE, the undersigned, being of at least 18 years of age, acknowledge, appreciate, and agree that: </p>
+                </div> 
+                <div class="col-12">         
+                  <ol>
+                    <li>The risk of injury from the activities involved in this program is significant, including the potential for permanent paralysis and death, and<br> while skills, equipment, and personal discipline may reduce this risk, the risk of serious injury does exist; and, </li>
+                    <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE<br> NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation; and, </li>
+                    <li>I willingly agree to comply with the stated and customary terms and conditions for participation. If, however, I observe any unusual<br> significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the Company<br> immediately; and, </li>
+                    <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE, INDEMNIFY, AND HOLD<br> HARMLESS THE All American Catfish Tournaments, their officers, officials, agents and/or employees, other participants, sponsoring<br> agencies, sponsors, advertisers, and, if applicable, owners and lessors of premises used for the activity ("Releasees"), WITH RESPECT TO<br> ANY AND ALL INJURY, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM<br> THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law. </li>
+                    <li>I understand and agree to adhere to all tournament rules. I agree that any mention of our names or photographic or video witnesses may be<br> used by organizers. I understand I may be subject to polygraph testing.</li>
+                  </ol>
+                </div> 
+                <div class="col-12">     
+                  <p>I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND<br> THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT. </p>
                 </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="boatCaptainTel2">Boat Captain's Tel:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel2" required>
-                  </div>
+                <div class="form-row mb-2 mx-auto">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Don't agree</button>
+                  <button type="submit" id="release-agree1" class="btn btn-primary btn-sm ml-1">Agree</button>
                 </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="angler2-2">Angler 2:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="angler2" id="angler2-2">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="angler3-2">Angler 3:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="angler3" id="angler3-2">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="payment2">Payment Option:</label>
-                  <div class="col col-sm-6">
-                    <select class="col form-control" name="payment" id="payment2">
-                      <option class="text-muted">Select...</option>
-                      <option value="1">Place Holder $40</option>
-                      <option value="2">Full Payment $160</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-8 form-check-label" for="agree2">Please confirm you have read and agree to the <a
-                      href="rules.html" target="_blank">tournament rules</a>.</label>
-                      <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="agree2" value="agree"
-                          aria-label="agree to rules" required>
-                      </div>
-                </div>
-                <div class="form-row">
-                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
-                  <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-    <!-- Modal 3 -->
-    <div id="registerModal3" class="modal fade overflow-auto" role="dialog">
-      <div class="modal-dialog" role="document">
+    <!-- Release of liability modal 2 -->
+    <div id="release2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title">Register for Event</h3>
+            <h3 class="modal-title">All American Catfish Tournaments Release of liability</h3>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
           <div class="modal-body">
-            <div class="container-fluid">
-              <form>
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="numAnglers3">Number of Anglers</label>
-                  <div class="col col-sm-6">
-                    <select class="col form-control" name="numAnglers" id="numAnglers3">
-                      <option class="text-muted">Select...</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
+            <div class="container">
+              <div class="row">
+        
+                <div class="col-12 text-center">
+                  <p>PO Box 195 Edgerton, KS, 66021 </p>
                 </div>
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="boatCaptain3">Boat Captain:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="boatCaptain" id="boatCaptain3" required>
-                  </div>
+                <div class="col-12">
+                  <p>In consideration of being allowed to participate in any way in the All American Catfish Tournaments program, its related events and activities,<br> I/WE, the undersigned, being of at least 18 years of age, acknowledge, appreciate, and agree that: </p>
+                </div> 
+                <div class="col-12">         
+                  <ol>
+                    <li>The risk of injury from the activities involved in this program is significant, including the potential for permanent paralysis and death, and<br> while skills, equipment, and personal discipline may reduce this risk, the risk of serious injury does exist; and, </li>
+                    <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE<br> NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation; and, </li>
+                    <li>I willingly agree to comply with the stated and customary terms and conditions for participation. If, however, I observe any unusual<br> significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the Company<br> immediately; and, </li>
+                    <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE, INDEMNIFY, AND HOLD<br> HARMLESS THE All American Catfish Tournaments, their officers, officials, agents and/or employees, other participants, sponsoring<br> agencies, sponsors, advertisers, and, if applicable, owners and lessors of premises used for the activity ("Releasees"), WITH RESPECT TO<br> ANY AND ALL INJURY, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM<br> THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law. </li>
+                    <li>I understand and agree to adhere to all tournament rules. I agree that any mention of our names or photographic or video witnesses may be<br> used by organizers. I understand I may be subject to polygraph testing.</li>
+                  </ol>
+                </div> 
+                <div class="col-12">     
+                  <p>I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND<br> THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT. </p>
                 </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="boatCaptainTel3" required>Boat Captain's Tel:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="tel" name="boatCaptainTel" id="boatCaptainTel3" required>
-                  </div>
+                <div class="form-row mb-2 mx-auto">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Don't agree</button>
+                  <button type="submit" id="release-agree2" class="btn btn-primary btn-sm ml-1">Agree</button>
                 </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="angler2-3">Angler 2:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="angler" id="angler2-3">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="angler3-3">Angler 3:</label>
-                  <div class="col col-sm-6">
-                    <input class="form-control" type="text" name="angler3" id="angler3-3">
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for="payment3">Payment Option:</label>
-                  <div class="col col-sm-6">
-                    <select class="col form-control" name="payment" id="payment3">
-                      <option class="text-muted">Select...</option>
-                      <option value="1">Place Holder $30</option>
-                      <option value="2">Full Payment $120</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label class="col-8 form-check-label" for="agree3">Please confirm you have read and agree to the <a
-                      href="rules.html" target="_blank">tournament rules</a>.</label>
-                  <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="agree3" value="agree"
-                      aria-label="agree to rules" required>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
-                  <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Release of liability modal 1-->
-<div id="release1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title">All American Catfish Tournaments Release of liability</h3>
-        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row">    
-            <div class="col-12 text-center">
-              <p>PO Box 195 Edgerton, KS, 66021 </p>
-            </div>
-            <div class="col-12">
-              <p>In consideration of being allowed to participate in any way in the All American Catfish Tournaments program, its related events and activities,<br> I/WE, the undersigned, being of at least 18 years of age, acknowledge, appreciate, and agree that: </p>
-            </div> 
-            <div class="col-12">         
-              <ol>
-                <li>The risk of injury from the activities involved in this program is significant, including the potential for permanent paralysis and death, and<br> while skills, equipment, and personal discipline may reduce this risk, the risk of serious injury does exist; and, </li>
-                <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE<br> NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation; and, </li>
-                <li>I willingly agree to comply with the stated and customary terms and conditions for participation. If, however, I observe any unusual<br> significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the Company<br> immediately; and, </li>
-                <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE, INDEMNIFY, AND HOLD<br> HARMLESS THE All American Catfish Tournaments, their officers, officials, agents and/or employees, other participants, sponsoring<br> agencies, sponsors, advertisers, and, if applicable, owners and lessors of premises used for the activity ("Releasees"), WITH RESPECT TO<br> ANY AND ALL INJURY, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM<br> THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law. </li>
-                <li>I understand and agree to adhere to all tournament rules. I agree that any mention of our names or photographic or video witnesses may be<br> used by organizers. I understand I may be subject to polygraph testing.</li>
-              </ol>
-            </div> 
-            <div class="col-12">     
-              <p>I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND<br> THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT. </p>
-            </div>
-            <div class="form-row mb-2 mx-auto">
-              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Don't agree</button>
-              <button type="submit" id="release-agree1" class="btn btn-primary btn-sm ml-1">Agree</button>
+    <!-- Release of liability modal 3 -->
+    <div id="release3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">All American Catfish Tournaments Release of liability</h3>
+            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+        
+                <div class="col-12 text-center">
+                  <p>PO Box 195 Edgerton, KS, 66021 </p>
+                </div>
+                <div class="col-12">
+                  <p>In consideration of being allowed to participate in any way in the All American Catfish Tournaments program, its related events and activities,<br> I/WE, the undersigned, being of at least 18 years of age, acknowledge, appreciate, and agree that: </p>
+                </div> 
+                <div class="col-12">         
+                  <ol>
+                    <li>The risk of injury from the activities involved in this program is significant, including the potential for permanent paralysis and death, and<br> while skills, equipment, and personal discipline may reduce this risk, the risk of serious injury does exist; and, </li>
+                    <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE<br> NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation; and, </li>
+                    <li>I willingly agree to comply with the stated and customary terms and conditions for participation. If, however, I observe any unusual<br> significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the Company<br> immediately; and, </li>
+                    <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE, INDEMNIFY, AND HOLD<br> HARMLESS THE All American Catfish Tournaments, their officers, officials, agents and/or employees, other participants, sponsoring<br> agencies, sponsors, advertisers, and, if applicable, owners and lessors of premises used for the activity ("Releasees"), WITH RESPECT TO<br> ANY AND ALL INJURY, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM<br> THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law. </li>
+                    <li>I understand and agree to adhere to all tournament rules. I agree that any mention of our names or photographic or video witnesses may be<br> used by organizers. I understand I may be subject to polygraph testing.</li>
+                  </ol>
+                </div> 
+                <div class="col-12">     
+                  <p>I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND<br> THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT. </p>
+                </div>
+                <div class="form-row mb-2 mx-auto">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Don't agree</button>
+                  <button type="submit" id="release-agree3" class="btn btn-primary btn-sm ml-1">Agree</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- Release of liability modal 2 -->
-<div id="release2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title">All American Catfish Tournaments Release of liability</h3>
-        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row">
-    
-            <div class="col-12 text-center">
-              <p>PO Box 195 Edgerton, KS, 66021 </p>
-            </div>
-            <div class="col-12">
-              <p>In consideration of being allowed to participate in any way in the All American Catfish Tournaments program, its related events and activities,<br> I/WE, the undersigned, being of at least 18 years of age, acknowledge, appreciate, and agree that: </p>
-            </div> 
-            <div class="col-12">         
-              <ol>
-                <li>The risk of injury from the activities involved in this program is significant, including the potential for permanent paralysis and death, and<br> while skills, equipment, and personal discipline may reduce this risk, the risk of serious injury does exist; and, </li>
-                <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE<br> NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation; and, </li>
-                <li>I willingly agree to comply with the stated and customary terms and conditions for participation. If, however, I observe any unusual<br> significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the Company<br> immediately; and, </li>
-                <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE, INDEMNIFY, AND HOLD<br> HARMLESS THE All American Catfish Tournaments, their officers, officials, agents and/or employees, other participants, sponsoring<br> agencies, sponsors, advertisers, and, if applicable, owners and lessors of premises used for the activity ("Releasees"), WITH RESPECT TO<br> ANY AND ALL INJURY, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM<br> THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law. </li>
-                <li>I understand and agree to adhere to all tournament rules. I agree that any mention of our names or photographic or video witnesses may be<br> used by organizers. I understand I may be subject to polygraph testing.</li>
-              </ol>
-            </div> 
-            <div class="col-12">     
-              <p>I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND<br> THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT. </p>
-            </div>
-            <div class="form-row mb-2 mx-auto">
-              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Don't agree</button>
-              <button type="submit" id="release-agree2" class="btn btn-primary btn-sm ml-1">Agree</button>
-            </div>
-          </div>
+  </body>
+
+  <!-- Footer -->
+  <footer class="footer sticky-footer">
+    <div class="container-fluid">
+      <div class="row pt-2">
+        <div class="col">
+          <span data-toggle="tooltip" data-placement="top" title="Click Facebook Icon"><h2 class="text-white text-center pr-3">Join our Group</span> <a class="btn btn-social-icon btn-facebook mb-1" target="_blank"
+            href="https://www.facebook.com/groups/AACatfish/"><i class="fa fa-facebook"></i></a></h2></span>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Release of liability modal 3 -->
-<div id="release3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title">All American Catfish Tournaments Release of liability</h3>
-        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row">
-    
-            <div class="col-12 text-center">
-              <p>PO Box 195 Edgerton, KS, 66021 </p>
-            </div>
-            <div class="col-12">
-              <p>In consideration of being allowed to participate in any way in the All American Catfish Tournaments program, its related events and activities,<br> I/WE, the undersigned, being of at least 18 years of age, acknowledge, appreciate, and agree that: </p>
-            </div> 
-            <div class="col-12">         
-              <ol>
-                <li>The risk of injury from the activities involved in this program is significant, including the potential for permanent paralysis and death, and<br> while skills, equipment, and personal discipline may reduce this risk, the risk of serious injury does exist; and, </li>
-                <li>I KNOWINGLY AND FREELY ASSUME ALL SUCH RISKS, both known and unknown, EVEN IF ARISING FROM THE<br> NEGLIGENCE OF THE RELEASEES or others, and assume full responsibility for my participation; and, </li>
-                <li>I willingly agree to comply with the stated and customary terms and conditions for participation. If, however, I observe any unusual<br> significant hazard during my presence or participation, I will remove myself from participation and bring such to the attention of the Company<br> immediately; and, </li>
-                <li>I, for myself and on behalf of my heirs, assigns, personal representatives and next of kin, HEREBY RELEASE, INDEMNIFY, AND HOLD<br> HARMLESS THE All American Catfish Tournaments, their officers, officials, agents and/or employees, other participants, sponsoring<br> agencies, sponsors, advertisers, and, if applicable, owners and lessors of premises used for the activity ("Releasees"), WITH RESPECT TO<br> ANY AND ALL INJURY, DISABILITY, DEATH, or loss or damage to person or property, WHETHER ARISING FROM<br> THE NEGLIGENCE OF THE RELEASEES OR OTHERWISE, to the fullest extent permitted by law. </li>
-                <li>I understand and agree to adhere to all tournament rules. I agree that any mention of our names or photographic or video witnesses may be<br> used by organizers. I understand I may be subject to polygraph testing.</li>
-              </ol>
-            </div> 
-            <div class="col-12">     
-              <p>I HAVE READ THIS RELEASE OF LIABILITY AND ASSUMPTION OF RISK AGREEMENT, FULLY UNDERSTAND ITS TERMS, UNDERSTAND<br> THAT I HAVE GIVEN UP SUBSTANTIAL RIGHTS BY SIGNING IT, AND SIGN IT FREELY AND VOLUNTARILY WITHOUT ANY INDUCEMENT. </p>
-            </div>
-            <div class="form-row mb-2 mx-auto">
-              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Don't agree</button>
-              <button type="submit" id="release-agree3" class="btn btn-primary btn-sm ml-1">Agree</button>
-            </div>
-          </div>
+      
+      <!-- Signature -->
+      <div id="signature" class="row bg-dark py-2">
+        <div class="col text-center pt-2">
+          <h6 class="text-white">Copyright © 2020 | All rights reserved | Delivered by <a href="https://github.com/kibbyd" target="_blank">The Milkman</a><img src="images/milkBottle.png" height="20px" alt="milk bottle" class="mb-1">
+          </h6>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-</body>
-
-<footer class="footer sticky-footer">
-  <div class="container-fluid">
-    <div class="row pt-2">
-      <div class="col">
-        <span data-toggle="tooltip" data-placement="top" title="Click Facebook Icon"><h2 class="text-white text-center pr-3">Join our Group</span> <a class="btn btn-social-icon btn-facebook mb-1" target="_blank"
-          href="https://www.facebook.com/groups/AACatfish/"><i class="fa fa-facebook"></i></a></h2></span>
-      </div>
-    </div>
-    
-    <div id="signature" class="row bg-dark py-2">
-      <div class="col text-center pt-2">
-        <h6 class="text-white">Copyright © 2020 | All rights reserved | Delivered by <a href="https://github.com/kibbyd" target="_blank">The Milkman</a><img src="images/milkBottle.png" height="20px" alt="milk bottle" class="mb-1">
-        </h6>
-      </div>
+      </div>		
     </div>		
-  </div>		
-</footer>
+  </footer>
 
-<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 
-<script>
-  $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-</script>
 </html>
