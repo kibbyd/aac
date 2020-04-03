@@ -76,11 +76,16 @@ $(function(){
     });
 });
 
+
+// Tool tips
+
   $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
 
-function buttonAlert(){
-    alert("This button hasn't been linked to anything yet!");
+//Dummy button
+
+function dummyButton(){
+    alert("This isn't linked to anything yet!")
 }
 
