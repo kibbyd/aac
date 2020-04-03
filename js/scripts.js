@@ -80,3 +80,7 @@ $(function(){
   $('[data-toggle="tooltip"]').tooltip()
 });
 
+function buttonAlert(){
+    alert("This button hasn't been linked to anything yet!");
+}
+
