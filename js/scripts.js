@@ -76,7 +76,6 @@ $(function(){
     });
 });
 
-
 // Tool tips
 
   $(function () {
